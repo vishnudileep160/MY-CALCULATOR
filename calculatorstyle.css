@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    background-color: brown;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 1em;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 3em;
+    color: brown;
+    background-color: rgb(240, 248, 255,0.5);
+}
+
+h4{
+    text-align: center;
+    color: rgb(109, 108, 108);
+
+}
+
+.row{
+    background-color: chocolate;
+    border-radius: 0.5em;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    white-space: nowrap;
+}
+
+.calculator{
+    background-color: burlywood;
+    padding: 1em 0.5em;
+    border-radius: 0.5em;
+    /* box-shadow: 1px 2px 5px black; */
+    box-shadow: inset 1px 1px 3px black;
+}
+
+.calculator::before{
+    content: '';
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 1.5em;
+    margin: 1px 2px;
+    width: 4em;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 2px brown; 
+
+}
+
+button:hover{
+    background-color: rgb(255, 216, 216);
+}
+
+input{
+    /* margin-bottom: 1em; */
+    padding: 0.7em 0.6em;
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    border: 1px solid white;
+    font-size: 18px;
+}
+
+#CE{
+    background-color: rgb(139, 48, 48);
+    color: white;
+    border: 1px solid rgba(255, 136, 136, 0.7);
+    box-shadow: inset 0.5px 1px 3px;
+}
