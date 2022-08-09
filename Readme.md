@@ -1,8 +1,10 @@
-Destktop View
-![](screenshots/Calculator%20Desktop.PNG)
+<h1>Desktop View</h1>
+<img src="screenshots/Calculator%20Desktop.PNG"></img>
 
-Mobile View
-![](screenshots/Calculator%20Mobile.PNG)
+<h1>Mobile View</h1>
+<img src="screenshots/Calculator%20Mobile.PNG"></img>
 
-Mobile view in Action
-![](screenshots/Calculator%20in%20Action.PNG)
+<h1>Mobile view in Action</h1>
+<img src="screenshots/Calculator%20in%20Action.PNG"></img>
+
+
